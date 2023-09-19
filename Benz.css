@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    padding: 10px 12px;
+    height: 60px;
+}
+
+.navbar1 a {
+    color: rgb(125, 124, 124);
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0px 15px;
+}
+
+.navbar1 a:hover {
+    color: white;
+}
+
+.useroption {
+    margin: 30px;
+}
+
+.language a {
+    margin: 30px;
+}
+
+.useroption a {
+    margin: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+}
+
+.home {
+    background: url('mq5-original-aspect.avif');
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar2 {
+    background: rgba(0, 0, 0, 0.834);
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: center;
+}
+
+.navbar2 a {
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0px 23px;
+    color: rgb(124, 121, 121);
+}
+
+.navbar2 a:hover {
+    color: white;
+}
+
+.tag {
+    display: flex;
+    flex-direction: column;
+}
+
+.tag p {
+    font-size: 30px;
+    color: white;
+    font-style: oblique;
+    position: absolute;
+    top: 43%;
+    left: 9%;
+}
+
+.bt {
+    position: absolute;
+    top: 62%;
+    left: 9%;
+}
+
+.bt button {
+    border-radius: 50px;
+    padding: 6px 20px;
+    background: white;
+    border: none;
+    font-size: 15px;
+}
+
+.bt button:hover {
+    color: white;
+    background: rgb(46, 151, 231);
+}
